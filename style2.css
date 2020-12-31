@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+#wrapper {
+	margin: 0 auto;
+	background-color: #FFF;
+		}
+header {
+	background-color: #146E37;
+	height:150px;
+	padding: 4px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	line-height: 50px;
+	font-size: 50px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+#main_menu ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding:0px;
+	margin: 0px;
+	background-color: #393636;
+	}
+
+#main_menu ul li a{
+	display: block;
+	padding: .5em 1em;
+	margin: .5em;
+	text-decoration: none;
+	text-align: center;
+	color:#FFF;
+	font-size: 18px;
+}
+
+
+
+#main_menu ul li a:hover {
+color:#BD6F70;
+}
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+#menu {
+	
+display: flex;
+flex-flow: row wrap;
+}
+
+section {
+  background: #F6F3ED;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 240px;
+}
+
+
+.footer .footer-center{
+	width: 30%
+}
+.footer .footer-center{
+	font-size: 17px;
+	
+}
+/*.footer .footer-center p{
+	display: inline-block;
+	color: #FFF;
+	vertical-align: middle;
+	margin: 0;
+	}*/
+.footer
+{
+	background-color: #CBAA62;
+	text-align:left;
+	font-family: sans-serif;
+	font-size:16px;
+	padding:50px;
+	margin-top:50px;
+}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer .footer-left{
+	width: 33%;
+	padding-right:15px;
+}
+/*.footer{
+	line-height: 20px;
+	color: #FFF;
+	font-size:13px;
+	font-weight: normal;
+	margin: 0;
+}*/
+.footer footer-center{
+	width: 30%;
+}
+.footer .footer-center{
+	font-size:17px;
+		
+	}
+.footer .footer-center p{
+	display: inline-block;
+	color:#000;
+	vertical-align: middle;
+	margin: 0;
+}
+.footer .footer-center p a{
+	color:#000;
+	text-decoration: none;
+}
+.footer .footer-right{
+	width:35%
+}
+/*.footer {
+	color:#FFF;
+	font-weight:normal;
+	margin: 0;
+}
+.footer .footer-left,
+.footer .footer-right,
+.footer .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}*/
+.footer .footer-center i{
+	margin-left: 0;
+}
